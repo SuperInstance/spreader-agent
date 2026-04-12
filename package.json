@@ -1,0 +1,15 @@
+{
+  "name": "spreader-agent",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Drop-in git-agent that spreads one idea across many perspectives",
+  "scripts": {
+    "spread": "tsx src/cli.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0",
+    "tsx": "^4.0.0"
+  }
+}
