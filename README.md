@@ -1,35 +1,30 @@
 # spreader-agent
-A TypeScript agent for spreading and managing instances.
 
-## What it does
-Automates deployment, monitoring, and scaling of instances across environments as part of the **Cocapn Fleet** (SuperInstance org).
+**TypeScript** agent for the Cocapn Fleet (github.com/SuperInstance). It spreads data across nodes efficiently.
 
-## Installation
-```bash
-git clone https://github.com/SuperInstance/spreader-agent.git
-cd spreader-agent
-npm ci
-```
+## Description
+A lightweight, test‑driven library that handles data distribution, integrates with the fleet’s messaging layer, and provides a clear API for developers.
 
 ## Usage
-1. Configure settings in `src/config.ts` or via environment variables.  
-2. Run the agent:
 ```bash
-npm run start
-```
-3. Run the test suite:
-```bash
-npm test
+# Clone
+git clone https://github.com/SuperInstance/spreader-agent.git
+cd spreader-agent
+
+# Install
+npm ci
+
+# Build
+npm run build
+
+# Run (example)
+npm start   # or `node dist/index.js`
 ```
 
-## Scripts
-- `npm run build` – compile TypeScript.  
-- `npm run lint` – lint source files.  
-
-## Documentation
-- [BOOTCAMP.md](BOOTCAMP.md) – onboarding guide.  
-- [CHARTER.md](CHARTER.md) – project charter.  
-- [DOCKSIDE-EXAM.md](DOCKSIDE-EXAM.md) – exam documentation.  
+## Related
+- [Cocapn Fleet](https://github.com/SuperInstance) – the ecosystem this agent belongs to  
+- [BOCAMP.md](BOCAMP.md) – onboarding guide  
+- [DOCKSIDE-EXAM.md](DOCKSIDE-EXAM.md) – testing criteria  
 
 ## License
-See [LICENSE](LICENSE) for details.
+MIT – see [LICENSE](LICENSE).
