@@ -1,30 +1,32 @@
 # spreader-agent
 
-**TypeScript** agent for the Cocapn Fleet (github.com/SuperInstance). It spreads data across nodes efficiently.
+**TypeScript** agent for efficient data spreading, part of the **Cocapn Fleet** (github.com/SuperInstance).
 
 ## Description
-A lightweight, test‑driven library that handles data distribution, integrates with the fleet’s messaging layer, and provides a clear API for developers.
+Spreader Agent handles high‑throughput data distribution and processing within the Cocapn Fleet. Built with TypeScript, it integrates seamlessly with the fleet’s other services and runs on Groq’s LPU hardware for fast AI inference.
 
 ## Usage
 ```bash
-# Clone
+# Clone the repo
 git clone https://github.com/SuperInstance/spreader-agent.git
 cd spreader-agent
 
-# Install
-npm ci
+# Install dependencies
+npm install
 
-# Build
+# Build the project
 npm run build
 
-# Run (example)
-npm start   # or `node dist/index.js`
+# Run the agent
+npm start
 ```
 
 ## Related
-- [Cocapn Fleet](https://github.com/SuperInstance) – the ecosystem this agent belongs to  
-- [BOCAMP.md](BOCAMP.md) – onboarding guide  
-- [DOCKSIDE-EXAM.md](DOCKSIDE-EXAM.md) – testing criteria  
+- **Cocapn Fleet** – https://github.com/SuperInstance  
+- **Groq LPU** – https://groq.com  
+
+## Contributing
+See [CHARTER.md](CHARTER.md) for contribution guidelines.
 
 ## License
-MIT – see [LICENSE](LICENSE).
+Distributed under the terms of the [LICENSE](LICENSE).
